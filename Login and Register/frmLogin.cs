@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
@@ -35,7 +35,7 @@ namespace Login_and_Register
 
                 if (count > 0)
                 {
-                    new frmDashboard().Show();
+                    new Form1().Show();
                     this.Hide();
                 }
                 else
